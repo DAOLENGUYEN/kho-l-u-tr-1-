@@ -1,0 +1,27 @@
+TÌM HIỂU VỀ LINUX 
+1. kernel
+- thật ra linux ko phải là một hệ điều hành như window hay mac dì cả, nó chỉ như là một cái chương trình được chạy để quản lí data và phần cứng của máy tính.
+=> linux là một kernel là nhân.
+- cách hoạt động của nó: để mà lấy một cái data trong máy tính nó có thể hiển thị qua phần cứng của máy tính cụ thể là màng hình, thì cái data đó phải đi qua 
+kerrnel đẻ nó có thể xử lí và đưa ra cái màng hình. nói chung lại là nó là một chương trình xử lí và quản lí máy tính.
+2. GNU/linux 
+- nó là một hệ điều hành có tên là GNU/linux, với linux kernrnel là nhân còn GNU đóng vai trò là môi trường.
+- đến với GNU trước, thì GNU nó đc clone từ hệ hệ điều hành UNIX có nguồn mã đóng tức nghĩa nó là một nguồn mã không ai có thể xem đc.
+- GNU có 4 thành phần thành phần(phần này nguyên có tham khảo qua các trang khác nữa): 
+      a. GCC: trình biên dịch cho nhiều ngôn nguwxl ập trình 
+      b. GNU library: thư viện chính của GNU là thư viện của ngôn ngữ C 
+      c. bash: trình biên dịch lệnh cụ thể là các command trong hệ điều hành 
+      d. GNU core...: nhà cung cấp các lệnh như là ls, cd, rm, ...
+- GNU thật ra thì cũng có nhân là GNU hurd nhưng mà chưa hoàn thiện nên là ngta sử dụng nhân của linux là linux kernel mới ra một hệ điều hành hoàn chỉnh là GNU/linux.
+3. shell 
+- khi bạn muốn truy xuất thong tin dữ liệu từ phần cứng thì phải thông qua các cái lệnh như ls, rm, mkdir,... khi những các cái lệnh đó đucợ yêu cầu tới kernel thì ker nel sẽ không hiểu 
+nên nó sẽ cần một cái gì đó phiên dịch ra để cho cái kernel đó hiểu và nó có thể xử lí yêu cầu đc, thì cái mà đóng vai trò phiên dịch ở đây là cái shell mà mình đang nói, ở trên phần 2 
+mình có nhắc đến là cái bash thì bash nó là loại shell. 
+4. Distribution
+- distribution là những phiên bản khác của GNU/linux đc tạo ra nhằm để dùng cho các cái mục đích nào đó 
+- những cái phiên bảng cđó được thêm những thành phần mới như package manager, desktop enviroment, các chương trình đồ họa, những cái phiên bản đó thì có gốc là GNU/linux nhưng mà 
+nó sẽ đc phát triển hơn dễ sử dụng hơn.
+- package manager: cũng như cái tên của nó đó là quản lí gói tức nghĩa là nó sẽ hổ trợ quản lí các tập tin dễ dàng hơn.
+- desktop enviroment: tức nghĩa đó là cái giao diện của hệ điều hành tức nghĩa như là window nó có cái giao diện có cả thanh công cụ để ta có thể truy cập sâu vào bên
+ trong hơn, nên nó sẽ dễ dàng hơn trong việt dùng lệnh.
+
