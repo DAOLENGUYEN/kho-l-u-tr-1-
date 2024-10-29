@@ -1,0 +1,47 @@
+1. cd 
+- cd là lênh truy cập vào một thư mục có sẵn hoặc thoát ra.
+2. ls 
+- là hiển thị danh sách các thư mục hoặc các tệp có trong một mơi mà mình đã cd vào 
+3.pwd 
+- là lệnh hiển thị địa chỉ mà mình đang cd vào 
+4.echo 
+- là lệnh input văn bản vào một tệp nào đó đc sử dụng với 2 dấu > và >> 
+- dấu > là dấu thêm văn bản vào nhưng khi trong tệp đã có nội dung nào đó r mà dùng cái này nữa thì nó sẽ ghi đè keeb 
+- còn dấu >> này thì không bị ghi đè nó chỉ thêm vào thôi 
+5. cat 
+- là lệnh hiển thị nội dụng của một tệp nào đó mà mình muốn 
+6. mkdir 
+- là tạo một thư mục mới 
+- mkdir desktop/nguyen là tạo một thư mục nguyen trong thư mục desktop
+- mkdir -p desktop/dao/nguyen là tạo một thư mục dao và tạo thêm một thư mục nguyen trong thư mục dao :v
+7. rmdir 
+- xóa một thư mục rỗng trong thư mục mà mình đang truy cập vào 
+8.rm 
+- xóa một thư mục cso nội dung bên trong 
+9. touch 
+- tạo một tệp rỗng 
+10. locate 
+- thực hành bị lỗi nên chưa có hiểu ^.^
+11. find 
+- tìm kiếm tên tệp trong thư mục đã truy cập vào 
+12. grep 
+- tìm nội dung trong tệp 
+13 . mv 
+- di chuển từ tệp có trong thư mục mà bạn truy xuất đến một đường dẫn mà bạn cần 
+ví dụ mv note.txt /desktop/nguyen/dao thì nó sẽ nằm trong thư mục đào 
+14. cp nó cũng i nhưu mv chỉ là copy thư mục này qua đường dẫn nào đó 
+15. du 
+- là cho biết dung lượng file đang truy cập 
+16. df 
+- cho biết dung lượng tất cả các file
+17. head 
+- in ra nội dung đầu của tệp có thể sử dụng -n ( và thêm số dòng cần in)
+18. tail
+- in ra nội dung cuois sử dụng -n như head
+19. diff 
+-so sánh giữa hai tệp qua từng dòng nội dung 
+20. zip 
+- nén các tệp thành file zip 
+22. unzip 
+- giải nén file zip 
+
